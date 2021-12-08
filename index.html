@@ -268,8 +268,8 @@
 
     <footer class="footer">
       <div class="container">
-        <div class="row align-items-end">
-          <div class="col-xl-3 col-lg-6 footer__col">
+        <div class="row align-items-end justify-content-between">
+          <div class="col-xl-3 col-lg-4 footer__col">
             <div class="footer__logo">
               <a href="#">
                 <img src="img/footer__logo.svg" alt="desertpixel">
@@ -279,13 +279,7 @@
               © 2021 DESERTPIXEL
             </div>
           </div>
-          <div class="col-xl-3 col-lg-6 footer__col">
-            <ul class="footer__menu">
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms and Conditions</a></li>
-            </ul>
-          </div>
-          <div class="col-xl-3 col-lg-6 footer__col" >
+          <div class="col-xl-3 col-lg-4 footer__col" >
             <div class="footer__phone">
               <a href="tel:+4343554464">+43 435 544 64</a>
             </div>
@@ -293,7 +287,7 @@
               <a href="https://goo.gl/maps/cLmnoxaDvsyz37kp7" target="_blank">41 Stirling Highway, Nedlands 6009</a>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-6 footer__col">
+          <div class="col-xl-3 col-lg-3 footer__col">
             <div class="footer__social">
               <a class="footer__social-link" href="#">
                 <img src="img/facebook.svg" alt="social">
@@ -363,90 +357,6 @@
   <script src="js/lib/bootstrap.min.js"></script>
   <script src="js/lib/parallax.js"></script>
   <script src="js/main.js"></script>
-
-<!-- <script
-    src="https://maps.googleapis.com/maps/api/js?key= &callback=initMap&libraries=places,geometry&solution_channel=GMP_QB_locatorplus_v4_cABD"
-    async defer></script>
-
-
-  <script>
-
-    function initMap() {
-
-      var styleMap = [
-    {
-        "featureType": "road",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "lightness": 100
-            },
-            {
-                "visibility": "simplified"
-            }
-        ]
-    },
-    {
-        "featureType": "water",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "visibility": "on"
-            },
-            {
-                "color": "#C6E2FF"
-            }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "geometry.fill",
-        "stylers": [
-            {
-                "color": "#C5E3BF"
-            }
-        ]
-    },
-    {
-        "featureType": "road",
-        "elementType": "geometry.fill",
-        "stylers": [
-            {
-                "color": "#D1D1B8"
-            }
-        ]
-    }
-];
-
-      var element = document.getElementById("map");
-      var image = "img/marker.png";
-      var coordinates = { lat: -31.977220402232717, lng: 115.81005919455018 };
-      var options = {
-        // center:{ lat: -31.97125643908186, lng:  115.80040274405503},
-        center: coordinates,
-        zoom: 16,
-        styles: styleMap
-      };
-
-      var newMap = new google.maps.Map(element, options);
-
-      var marker = new google.maps.Marker({
-        position: coordinates,
-        map: newMap,
-        icon: image,
-      });
-
-      marker.addListener('click', function () {
-        newMap.setZoom(18),
-          newMap.setCenter(coordinates)
-      });
-
-    }
-
-
-
-  </script>  -->
-
 
 </body>
 
